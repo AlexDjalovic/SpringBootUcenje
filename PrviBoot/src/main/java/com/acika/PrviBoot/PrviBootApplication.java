@@ -24,7 +24,13 @@ public class PrviBootApplication implements CommandLineRunner{
 	public void run(String... arg0) throws Exception {
 		// TODO Auto-generated method stub
 		//upisi();
-		vratiSve();
+		//vratiSve();
+		promeni();
+	}
+
+	private void promeni() {
+		// TODO Auto-generated method stub
+		dao.updateEmail("botaBotic", 7);
 	}
 
 	private void vratiSve() {
