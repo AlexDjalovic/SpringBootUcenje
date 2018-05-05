@@ -30,7 +30,7 @@ public class PrviBootApplication implements CommandLineRunner{
 
 	private void promeni() {
 		// TODO Auto-generated method stub
-		dao.updateEmail("botaBotic", 7);
+		dao.updateEmail("botaBotic2012", 7);
 	}
 
 	private void vratiSve() {

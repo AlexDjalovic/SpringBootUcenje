@@ -40,7 +40,7 @@ public class DAO {
 		//biram update(sql,args) koji vraca int
 		int tt=template.update(upit, newMail,id);
 		if(tt>0) {
-			System.out.println("promenjen je email zaposlenog");
+			System.out.println("promenjen je email zaposlenog u "+newMail);
 		}
 	}
 	public void deleteEmp(int id) {
