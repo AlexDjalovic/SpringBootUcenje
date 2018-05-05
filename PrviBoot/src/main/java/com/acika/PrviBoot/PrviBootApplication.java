@@ -11,7 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import com.acika.PrviBoot.Dao.DAO;
 import com.acika.PrviBoot.model.Employee;
 
-@SpringBootApplication
+@SpringBootApplication//ovo je kao da sam odjednom napisao @Configuration,@ComponentScan,@EnableAutoConfiguration
 public class PrviBootApplication implements CommandLineRunner{
 
 	@Autowired
