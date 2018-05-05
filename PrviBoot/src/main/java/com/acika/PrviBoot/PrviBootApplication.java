@@ -15,7 +15,7 @@ import com.acika.PrviBoot.model.Employee;
 public class PrviBootApplication implements CommandLineRunner{
 
 	@Autowired
-	DAO dao;
+	 private DAO dao;
 	public static void main(String[] args) {
 		SpringApplication.run(PrviBootApplication.class, args);
 	}
