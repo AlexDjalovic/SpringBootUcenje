@@ -16,5 +16,6 @@ public interface Dao extends org.springframework.data.repository.Repository<Tick
 	List<Ticket>findByIme(String ime);
 	List<Ticket>findByImeOrDestinacija(String ime,String destinacija);
 	//napisem samo findBy i automatski se pronalazi odgovarajuce polje i ako stavim And ili Or to je kao da pisem upit where ime=?or destinacija=?
-    //svakako se skracuje postupak
+    //svakako se skracuje postupak, jer ovako nema jdbc
+	
 }
