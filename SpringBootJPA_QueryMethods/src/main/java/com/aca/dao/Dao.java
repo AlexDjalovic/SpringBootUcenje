@@ -18,4 +18,8 @@ public interface Dao extends org.springframework.data.repository.Repository<Tick
 	//napisem samo findBy i automatski se pronalazi odgovarajuce polje i ako stavim And ili Or to je kao da pisem upit where ime=?or destinacija=?
     //svakako se skracuje postupak, jer ovako nema jdbc
 	
+	
+	//ALI MANA OVOGA JE STO SE MORA PRIDRZAVATI STANDARDA NAZIV METODA MORA POCETI SA FIND IMATI BY I NACI PO NEKOM POLJU
+	//AKO HOCU DA MI SE METODI DRUGACIJE ZOVU NPR.VRATISVEPOIMENU ONDA MORAM DA KORISTIM @NAMEDQUERIES U ENTITY KLASI
+	
 }
